@@ -27,3 +27,7 @@ To run Text Editor locally, follow these steps:
 
 ## Credits
 Text Editor was created by **Mohamed Osman**
+
+## Deployed Application (Heroku)
+
+Link to Deployed Application: [Progressive-Web-Applications-PWA-Text-Editor](https://evening-wave-94628.herokuapp.com/)
