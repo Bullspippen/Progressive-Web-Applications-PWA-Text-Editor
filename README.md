@@ -26,8 +26,4 @@ To run Text Editor locally, follow these steps:
 6. To install Text Editor as a PWA, click the "Install" button and follow the prompts.
 
 ## Credits
-Text Editor was created by Mohamed Osman.
-
-## License
-Text Editor is licensed under the MIT License.```
-
+Text Editor was created by **Mohamed Osman**
