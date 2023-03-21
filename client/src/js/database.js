@@ -26,7 +26,7 @@ export const putDb = async (content) => {
 
   // Use the .put() method on the store and pass in the content.
   await store.clear();
-  const request = await store.put({ content: content });
+  const request = await store.put({ id:1, value: content });
   console.log('data saved to the database', request);
 
 };
@@ -45,7 +45,7 @@ export const getDb = async () => {
 
   // Use the .getAll() method to get all data in the database.
   const request = await store.getAll();
-  return request.map(item => item.content);
+  return request.content;
 };
 
 initdb();
