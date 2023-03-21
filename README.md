@@ -1,35 +1,33 @@
 # Progressive-Web-Applications-PWA-Text-Editor
 
-User Story
+Text Editor is a Progressive Web Application (PWA) that allows users to create notes or code snippets with or without an internet connection. The app features data persistence techniques that ensure data is saved even when offline and includes both GET and PUT methods for IndexedDB object stores. Text Editor is bundled with webpack and uses babel to enable the use of async/await. It also features a service worker created with workbox that caches static assets for offline use and can be installed as a PWA.
 
-AS A developer
-I WANT to create notes or code snippets with or without an internet connection
-SO THAT I can reliably retrieve them for later use
+## Features
+- Create notes or code snippets with or without an internet connection
+- Automatically saves content inside the text editor when the DOM window is unfocused
+- Uses IndexedDB to create an object store and includes both GET and PUT methods
+- Bundled with webpack and uses babel to enable the use of async/await
+- Creates a service worker with workbox that caches static assets
+- Can be installed as a Progressive Web Application
 
-Acceptance Criteria
+## Getting Started
+To run Text Editor locally, follow these steps:
 
-GIVEN a text editor web application
-WHEN I open my application in my editor
-THEN I should see a client server folder structure
-WHEN I run `npm run start` from the root directory
-THEN I find that my application should start up the backend and serve the client
-WHEN I run the text editor application from my terminal
-THEN I find that my JavaScript files have been bundled using webpack
-WHEN I run my webpack plugins
-THEN I find that I have a generated HTML file, service worker, and a manifest file
-WHEN I use next-gen JavaScript in my application
-THEN I find that the text editor still functions in the browser without errors
-WHEN I open the text editor
-THEN I find that IndexedDB has immediately created a database storage
-WHEN I enter content and subsequently click off of the DOM window
-THEN I find that the content in the text editor has been saved with IndexedDB
-WHEN I reopen the text editor after closing it
-THEN I find that the content in the text editor has been retrieved from our IndexedDB
-WHEN I click on the Install button
-THEN I download my web application as an icon on my desktop
-WHEN I load my web application
-THEN I should have a registered service worker using workbox
-WHEN I register a service worker
-THEN I should have my static assets pre cached upon loading along with subsequent pages and static assets
-WHEN I deploy to Heroku
-THEN I should have proper build scripts for a webpack application
+1. Clone the repository: `git clone https://github.com/Bullspippen/Progressive-Web-Applications-PWA-Text-Editor.git`
+2. Install dependencies: `npm install`
+3. Start the server: `npm run start`
+
+## How to Use
+1. Open Text Editor in your web browser.
+2. To create a new note or code snippet, click the "New" button.
+3. Enter your content in the text editor.
+4. To save your content, click off the DOM window or close the text editor.
+5. To reopen a saved note or code snippet, click the "Open" button and select the note or code snippet you want to open.
+6. To install Text Editor as a PWA, click the "Install" button and follow the prompts.
+
+## Credits
+Text Editor was created by Mohamed Osman.
+
+## License
+Text Editor is licensed under the MIT License.```
+
